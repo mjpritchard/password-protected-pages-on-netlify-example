@@ -9,7 +9,7 @@
 
 [[redirects]]
   from = "/pro/*"
-  to = "/.netlify/functions/redirect"
+  to = "/functions/redirect"
   status = 200
   force = true
 
