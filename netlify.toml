@@ -9,6 +9,9 @@
 
 [[redirects]]
   from = "/pro/*"
-  to = "/login/"
-  status = 302
+  to = "/.netlify/functions/redirect"
+  status = 200
   force = true
+
+[functions]
+  directory = "functions"
